@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>RPS</title>
+</head>
+
+<body>
+    <h1><u>Rock-Paper-Scissors</u></h1>
+    <div class="choices">
+        <p>SELECT YOUR STYLE!</p>
+        <button class="choice" data-value="rock"><i class="fa fa-hand-rock-o" aria-hidden="true"></i></button>
+        <button class="choice" data-value="paper"><i class="fa-regular fa-paper-plane"></i></button>
+        <button class="choice" data-value="scissors"><i class="fa-regular fa-hand-scissors"></i></button>
+    </div>
+    <br><br><br>
+    <div class="scoreboard">
+        <div class="player-score">Player: 0</div>
+        <div class="computer-score">Computer: 0</div>
+    </div>
+    <br><br>
+    <div class="result">
+    </div>
+    <br><br>
+    <button onclick="rules()" id="rules">Rules</button>
+    <button onclick="restart()" id="restart">Restart</button>
+    <script src="asstes/script.js/js"></script>
+    <script src="https://kit.fontawesome.com/71c737d9d6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
