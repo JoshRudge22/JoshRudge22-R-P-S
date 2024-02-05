@@ -1,0 +1,64 @@
+/*-------Page-------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #51e2f5;
+}
+
+h1 {
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+
+p {
+    font-size: 50px;
+}
+
+/*-------Buttons-------*/
+
+.choice {
+    background-color: #51e2f5;
+    border-style: none;
+    height: 150px;
+    width: 150px;
+    font-size: 120px;
+    margin: 0 100px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background-color: #90EE90;
+}
+
+#rules {
+    border: none;
+    height: 100px;
+    width: 180px;
+    font-size: 60px;
+    margin-right: 90px;
+    cursor: pointer;
+}
+
+#restart {
+    border: none;
+    height: 100px;
+    width: 220px;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+/*-------Results-------*/
+
+.player-score {
+    font-size: 50px;
+}
+
+.computer-score {
+    font-size: 50px;
+}
+
+.result {
+    font-size: 30px;
+}
