@@ -32,13 +32,22 @@ p {
     background-color: #90EE90;
 }
 
-#rules {
+#rules-btn {
     border: none;
     height: 100px;
     width: 180px;
     font-size: 60px;
     margin-right: 90px;
     cursor: pointer;
+}
+
+#rules {
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+    font-size: 17px;
 }
 
 #restart {
@@ -64,6 +73,8 @@ p {
 }
 
 @media screen and (min-width: 1201px) and (max-width: 5000px) {
+
+    /*-------Page-------*/
     h1 {
         font-size: 80px;
         letter-spacing: 3px;
@@ -90,14 +101,23 @@ p {
         background-color: #90EE90;
     }
 
-    #rules {
+    #rules-btn {
         border: none;
         height: 100px;
         width: 180px;
         font-size: 60px;
         margin-right: 90px;
         cursor: pointer;
-    }
+   }
+
+    #rules {
+        width: 100%;
+        padding: 50px 0px;
+        text-align: center;
+        background-color: lightblue;
+        margin-top: 20px;
+        font-size: 17px;
+   }
 
     #restart {
         border: none;
@@ -150,13 +170,22 @@ p {
         background-color: #90EE90;
     }
 
-    #rules {
+    #rules-btn {
         border: none;
-        height: 90px;
-        width: 150px;
-        font-size: 50px;
+        height: 100px;
+        width: 180px;
+        font-size: 60px;
         margin-right: 90px;
         cursor: pointer;
+    }
+    
+    #rules {
+        width: 100%;
+        padding: 50px 0px;
+        text-align: center;
+        background-color: lightblue;
+        margin-top: 20px;
+        font-size: 17px;
     }
 
     #restart {
@@ -210,13 +239,22 @@ p {
         background-color: #90EE90;
     }
 
-    #rules {
+    #rules-btn {
         border: none;
-        height: 90px;
-        width: 150px;
-        font-size: 50px;
+        height: 100px;
+        width: 180px;
+        font-size: 60px;
         margin-right: 90px;
         cursor: pointer;
+    }
+    
+    #rules {
+        width: 100%;
+        padding: 50px 0px;
+        text-align: center;
+        background-color: lightblue;
+        margin-top: 20px;
+        font-size: 17px;
     }
 
     #restart {
@@ -250,7 +288,7 @@ p {
     }
 
     p {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     /*-------Buttons-------*/
@@ -260,8 +298,8 @@ p {
         border-style: none;
         height: 100px;
         width: 85px;
-        font-size: 80px;
-        margin: 0 20px;
+        font-size: 100px;
+        margin: 0 30px;
         padding: 10px 0;
         cursor: pointer;
     }
@@ -270,13 +308,22 @@ p {
         background-color: #90EE90;
     }
 
-    #rules {
+    #rules-btn {
         border: none;
         height: 90px;
-        width: 150px;
+        width: 175px;
         font-size: 50px;
-        margin-right: 90px;
+        margin-right: 80px;
         cursor: pointer;
+    }
+    
+    #rules {
+        width: 100%;
+        padding: 50px 0px;
+        text-align: center;
+        background-color: lightblue;
+        margin-top: 20px;
+        font-size: 17px;
     }
 
     #restart {
@@ -305,7 +352,7 @@ p {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     p {
@@ -329,13 +376,22 @@ p {
         background-color: #90EE90;
     }
 
-    #rules {
+    #rules-btn {
         border: none;
         height: 70px;
-        width: 95px;
+        width: 115px;
         font-size: 30px;
-        margin-right: 50px;
+        margin-right: 70px;
         cursor: pointer;
+    }
+    
+    #rules {
+        width: 100%;
+        padding: 50px 0px;
+        text-align: center;
+        background-color: lightblue;
+        margin-top: 20px;
+        font-size: 17px;
     }
 
     #restart {
@@ -349,15 +405,15 @@ p {
     /*-------Results-------*/
 
     .player-score {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .computer-score {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .result {
-        font-size: 35px;
+        font-size: 25px;
     }
 
 }
